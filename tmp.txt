@@ -1,0 +1,35 @@
+digraph {
+	node [shape=box];
+	edge [dir=none];
+
+	hamid_hanif[label="Md Abdul Hamid Miazi",style=filled,fillcolor=azure2];
+	NOName[label="NO Name",style=filled,fillcolor=bisque];
+	kaiyum_hamid[label="Md Abdul Kaiyum Miazi",style=filled,fillcolor=azure2];
+	AmbiaKhatun[label="Ambia Khatun",style=filled,fillcolor=bisque];
+	fazlur_kaiyum[label="Md Fazlur Rahim Miazi",style=filled,fillcolor=azure2];
+
+	{ rank=same;
+		hamid_hanif -> h0 -> NOName;
+		h0[shape=circle,label="",height=0.01,width=0.01];
+	}
+	{ rank=same;
+		h0_0;
+		h0_0[shape=circle,label="",height=0.01,width=0.01];
+	}
+		h0 -> h0_0;
+		h0_0 -> kaiyum_hamid;
+	{ rank=same;
+		kaiyum_hamid -> h1 -> AmbiaKhatun;
+		h1[shape=circle,label="",height=0.01,width=0.01];
+	}
+	{ rank=same;
+		h1_0;
+		h1_0[shape=circle,label="",height=0.01,width=0.01];
+	}
+		h1 -> h1_0;
+		h1_0 -> fazlur_kaiyum;
+	{ rank=same;
+	}
+	{ rank=same;
+	}
+}
