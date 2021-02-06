@@ -311,10 +311,14 @@ class Family:
 				if len(h.kids) > 0:
 					print('\t\th%d -> h%d_%d;'
 					      % (h.id, h.id, int(len(h.kids)/2)))
+					print('\th%d[group=g%d];'%(h.id,h.id))
+					print('\th%d_%d[group=g%d];'%(h.id,int(len(h.kids)/2),h.id))
 					i = 0
 					for c in h.kids:
 						print('\t\th%d_%d -> %s;'
 						      % (h.id, i, c.id))
+						print('\th%d_%d[group=g%d_%d];'%(h.id,i,h.id,i))
+						print('\t%s[group=g%d_%d];'%(c.id,h.id,i))
 						i += 1
 						if i == len(h.kids)/2:
 							i += 1

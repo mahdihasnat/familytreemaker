@@ -1,0 +1,27 @@
+graph{
+	node[shape=box];
+	subgraph household_A
+	{
+		A[label="Grand father"];
+		{
+			rank=same;
+			
+			B[label="Grand mother1"];
+			C[label="Grand mother2"];
+		}
+		A -- B;
+		A -- C; 
+	}
+	subgraph uncle_big
+	{
+		D[label="Uncle Big"];
+		{
+			rank=same;
+			E[label="jedi1"];
+			F[label="jedi2"];
+		}
+		D--E;
+		D--F;
+	}
+	B -- D;
+}

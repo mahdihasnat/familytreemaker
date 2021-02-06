@@ -1,35 +1,125 @@
-digraph {
-	node [shape=box];
-	edge [dir=none];
+line 102 : arg --> mia.txt
 
-	hamid_hanif[label="Md Abdul Hamid Miazi",style=filled,fillcolor=azure2];
-	NOName[label="NO Name",style=filled,fillcolor=bisque];
-	kaiyum_hamid[label="Md Abdul Kaiyum Miazi",style=filled,fillcolor=azure2];
-	AmbiaKhatun[label="Ambia Khatun",style=filled,fillcolor=bisque];
-	fazlur_kaiyum[label="Md Fazlur Rahim Miazi",style=filled,fillcolor=azure2];
+line 107 : "File OPened Successfully" --> File OPened Successfully
+line 119 : *p --> [{gender,M} {id,hamid_hanif} {name,Md Abdul Hamid Miazi } ]
 
-	{ rank=same;
-		hamid_hanif -> h0 -> NOName;
-		h0[shape=circle,label="",height=0.01,width=0.01];
-	}
-	{ rank=same;
-		h0_0;
-		h0_0[shape=circle,label="",height=0.01,width=0.01];
-	}
-		h0 -> h0_0;
-		h0_0 -> kaiyum_hamid;
-	{ rank=same;
-		kaiyum_hamid -> h1 -> AmbiaKhatun;
-		h1[shape=circle,label="",height=0.01,width=0.01];
-	}
-	{ rank=same;
-		h1_0;
-		h1_0[shape=circle,label="",height=0.01,width=0.01];
-	}
-		h1 -> h1_0;
-		h1_0 -> fazlur_kaiyum;
-	{ rank=same;
-	}
-	{ rank=same;
-	}
-}
+line 119 : *p --> [{gender,F} {name,Unknown } ]
+
+line 119 : *p --> [{gender,M} {id,kaiyum_hamid} {name,Md Abdul Kaiyum Miazi } ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {id,kaiyum_hamid} {name,Md Abdul Kaiyum Miazi } ]
+
+line 119 : *p --> [{gender,F} {name,Ambia Khatun} ]
+
+line 119 : *p --> [{gender,M} {id,fazlur_kaiyum} {name,Md Fazlur Rahim Miazi} ]
+
+line 119 : *p --> [{gender,M} {id,bazlur_kaiyum} {name,Md Bazlur Rahim Miazi} ]
+
+line 119 : *p --> [{gender,M} {id,ataur_kaiyum} {name,Md Ataur Rahman Miazi} ]
+
+line 119 : *p --> [{gender,M} {id,zakir_kaiyum} {name,Md Zakir Hossen Miazi} ]
+
+line 119 : *p --> [{gender,F} {id,jamila_kaiyum} {name,Jamila Khatun} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {id,fazlur_kaiyum} {name,Md Fazlur Rahim Miazi} ]
+
+line 119 : *p --> [{gender,F} {name,Sufia Akter} ]
+
+line 119 : *p --> [{gender,M} {name,Md Baki Miazi} ]
+
+line 119 : *p --> [{gender,M} {name,Md Saiful Islam Miazi} {surname,Nurul} ]
+
+line 119 : *p --> [{gender,M} {name,Md Zahir Miazi} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {id,bazlur_kaiyum} {name,Md Bazlur Rahim Miazi} ]
+
+line 119 : *p --> [{gender,F} {name,Shahnaz Pervin} ]
+
+line 119 : *p --> [{gender,F} {id,ayuba_bazlur} {name,Ayuba Ansari} {surname,Maksuda} ]
+
+line 119 : *p --> [{birthday,1992} {gender,M} {name,Md Al Amin} {surname,Mozammil} ]
+
+line 119 : *p --> [{birthday,1997} {gender,F} {name,Nowshin Layla Arju} ]
+
+line 119 : *p --> [{birthday,1999} {gender,M} {name,Mahdi Hasnat Siyam} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,F} {id,ayuba_bazlur} {name,Ayuba Ansari} {surname,Maksuda} ]
+
+line 119 : *p --> [{gender,M} {name,Md Jalal Sarker} ]
+
+line 119 : *p --> [{gender,M} {name,Rishad Rahbar Mahin} ]
+
+line 119 : *p --> [{gender,F} {name,Sidratul Muntaha} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {id,ataur_kaiyum} {name,Md Ataur Rahman Miazi} ]
+
+line 119 : *p --> [{gender,F} {name,Halima Khatun} ]
+
+line 119 : *p --> [{gender,F} {id,rehena_ataur} {name,Rehena Akter} ]
+
+line 119 : *p --> [{birthday,1996} {gender,M} {name,Md Rayhan Islam Miazi} ]
+
+line 119 : *p --> [{gender,M} {name,Md Habib Miazi} ]
+
+line 119 : *p --> [{birthday,2004} {gender,M} {name,Md Sayed Miazi} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,F} {id,rehena_ataur} {name,Rehena Akter} ]
+
+line 119 : *p --> [{gender,M} {name,Md Omor Faruk} {surname,Bokul} ]
+
+line 119 : *p --> [{gender,M} {name,Md Zunayed} ]
+
+line 119 : *p --> [{gender,M} {name,Md Zobayer} ]
+
+line 119 : *p --> [{gender,F} {name,Sumaiya} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {id,zakir_kaiyum} {name,Md Zakir Hossen Miazi} ]
+
+line 119 : *p --> [{gender,F} {name,Rubi Akter} ]
+
+line 119 : *p --> [{gender,M} {name,Rakibul Hasan Riaz} ]
+
+line 119 : *p --> [{gender,F} {name,Jerin Sultana} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {name,Md Hannan} ]
+
+line 119 : *p --> [{gender,F} {id,jamila_kaiyum} {name,Jamila Khatun} ]
+
+line 119 : *p --> [{gender,M} {id,jasim_hannan} {name,Md Jasim Uddin} ]
+
+line 119 : *p --> [{gender,M} {id,mahi_hannan} {name,Md Mahi} ]
+
+line 119 : *p --> [{gender,F} {name,Sarmin Akter} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {id,jasim_hannan} {name,Md Jasim Uddin} ]
+
+line 119 : *p --> [{gender,F} {name,Arin Sultana} ]
+
+line 119 : *p --> [{gender,F} {name,Anisha Mehzabin} ]
+
+line 119 : *p --> [{name,} ]
+
+line 119 : *p --> [{gender,M} {id,mahi_hannan} {name,Md মাহি} {surname , মহিউদ্দিন} {বয়শ , ১২৩} ]
+
+line 119 : *p --> [{gender,F} {name,Sayma Zafori} ]
+
