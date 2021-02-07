@@ -102,11 +102,25 @@ public:
 
 	string label()
 	{
+		// string ret = "";
+		// ret += "\"";
+		// ret += "<" + attributes["id"] + ">";
+		// ret += attributes["name"];
+		// ret += "\"";
+		// return ret;
+
+		return "\"" + sublabel() + "\"";
+	}
+	string sublabel()
+	{
 		string ret = "";
-		ret += "\"";
 		ret += "<" + attributes["id"] + ">";
-		ret += attributes["name"];
-		ret += "\"";
+		ret += attributes["name"] ;
+		for(auto information : attributes)
+		{
+			if(information.first == "id" or information.first == "name") continue ;
+			ret+= "\\n" + information.first + " : " + information.second ;
+		}
 		return ret;
 	}
 
@@ -131,12 +145,11 @@ public:
 	}
 	string label()
 	{
-		string ret = "\"{<" + father->attributes["id"] + ">";
-		ret += father->attributes["name"] + "|{";
+		string ret = "\"{" + father->sublabel() + "|{";
 		assert(!mother_sons.empty());
-		ret += "<" + mother_sons[0].first->attributes["id"] + ">" + mother_sons[0].first->attributes["name"];
+		ret += mother_sons[0].first->sublabel();
 		for (int i = 1; i < mother_sons.size(); i++)
-			ret += "|<" + mother_sons[i].first->attributes["id"] + ">" + mother_sons[i].first->attributes["name"];
+			ret += "|<" + mother_sons[i].first->sublabel();
 		ret += "}}\"";
 		return ret;
 	}
@@ -257,7 +270,7 @@ string node_of_child(Person * p)
 void graphviz(string ancestor)
 {
 
-	cout << "digraph {\n\tedge[dir=none];\n\tnode[shape=record];\n";
+	cout << "digraph {\n\tgraph[bgcolor=bisque2];\n\tedge[dir=none];\n\tnode[shape=record];\n";
 
 	vector<string> gen;
 	gen.push_back(ancestor);
