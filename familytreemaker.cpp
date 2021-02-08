@@ -149,7 +149,7 @@ public:
 		assert(!mother_sons.empty());
 		ret += mother_sons[0].first->sublabel();
 		for (int i = 1; i < mother_sons.size(); i++)
-			ret += "|<" + mother_sons[i].first->sublabel();
+			ret += "|" + mother_sons[i].first->sublabel();
 		ret += "}}\"";
 		return ret;
 	}
@@ -210,7 +210,7 @@ void parse(ifstream &fin)
 		else
 		{
 			r = 0;
-			idx = 0;
+			idx = -1;
 			if (last)
 			{
 				Person *father = last;
