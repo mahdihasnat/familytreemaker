@@ -115,11 +115,12 @@ public:
 	{
 		string ret = "";
 		ret += "<" + attributes["id"] + ">";
-		ret += attributes["name"] ;
-		for(auto information : attributes)
+		ret += attributes["name"];
+		for (auto information : attributes)
 		{
-			if(information.first == "id" or information.first == "name") continue ;
-			ret+= "\\n" + information.first + " : " + information.second ;
+			if (information.first == "id" or information.first == "name")
+				continue;
+			ret += "\\n" + information.first + " : " + information.second;
 		}
 		return ret;
 	}
@@ -194,7 +195,7 @@ void parse(ifstream &fin)
 			continue;
 		}
 		Person *p = new Person(strip(line));
-		if(persons[p->attributes["id"]]==0)
+		if (persons[p->attributes["id"]] == 0)
 			persons[(*p)["id"]] = p;
 		p = persons[p->attributes["id"]];
 		// DBG(*(p));
@@ -250,27 +251,34 @@ void parse(ifstream &fin)
 	}
 }
 
-
-string node_of_child(Person * p)
+string get_node_port_of_child(Person *p)
 {
-	Relation * r = 0;
-	if(p->attributes["gender"] == "M" )
-		r=relations[p->attributes["id"]];
+	Relation *r = 0;
+	if (p->attributes["gender"] == "M")
+		r = relations[p->attributes["id"]];
 	else
 	{
 		if (husband.find(p->attributes["id"]) != husband.end())
 			r = relations[husband[p->attributes["id"]]->attributes["id"]];
 	}
-	if(r)
-		return r->father->attributes["id"]+":"+p->attributes["id"];
-	else 
-		return p->attributes["id"]+":"+p->attributes["id"];
+	if (r)
+		return r->father->attributes["id"] + ":" + p->attributes["id"];
+	else
+		return p->attributes["id"] + ":" + p->attributes["id"];
+}
+
+string get_node_using_record(Person *p, Relation *r)
+{
+	if (r)
+		return "\t" + r->father->attributes["id"] + "[label = " + r->label() + " , shape=record];";
+	else
+		return "\t" + p->attributes["id"] + "[label = " + p->label() + " , shape=record];";
 }
 
 void graphviz(string ancestor)
 {
 
-	cout << "digraph {\n\tgraph[bgcolor=bisque2];\n\tedge[dir=none];\n\tnode[shape=record];\n";
+	cout << "digraph {\n\tgraph[bgcolor=bisque2];\n\tedge[dir=none];\n";
 
 	vector<string> gen;
 	gen.push_back(ancestor);
@@ -298,19 +306,14 @@ void graphviz(string ancestor)
 			}
 			// DBG(r);
 
-			if (r)
-			{
-				cout << "\t" << r->father->attributes["id"] << "[label = " << r->label() << " ];\n";
-			}
-			else
-				cout << "\t" << person_id << "[label = " << p->label() << " ];\n";
+			cout << get_node_using_record(p, r) << endl;
 
 			if (r)
 				for (auto i : r->mother_sons)
 				{
 					for (auto j : i.second)
 					{
-						edges.push_back( (r?r->father->attributes["id"] :  person_id)+":"+i.first->attributes["id"]+"->"+ node_of_child(j));
+						edges.push_back((r ? r->father->attributes["id"] : person_id) + ":" + i.first->attributes["id"] + "->" + get_node_port_of_child(j));
 						gen2.push_back(j->attributes["id"]);
 					}
 				}
@@ -318,8 +321,8 @@ void graphviz(string ancestor)
 
 		cout << "}\n";
 
-		for(string edge: edges)
-		cout<<"\t\t"+edge<<";\n";
+		for (string edge : edges)
+			cout << "\t\t" + edge << ";\n";
 		// NL;
 		swap(gen, gen2);
 	}
