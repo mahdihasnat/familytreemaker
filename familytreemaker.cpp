@@ -45,6 +45,7 @@ public:
 	{
 		stringstream sin(line);
 		getline(sin, attributes["name"], '(');
+		attributes["name"] = strip(attributes["name"]);
 		vector<string> parameters;
 		string parameter;
 		while (getline(sin, parameter, ','))
@@ -100,7 +101,7 @@ public:
 		return attributes[key];
 	}
 
-	string label()
+	string label_record()
 	{
 		// string ret = "";
 		// ret += "\"";
@@ -109,9 +110,9 @@ public:
 		// ret += "\"";
 		// return ret;
 
-		return "\"" + sublabel() + "\"";
+		return "\"" + sublabel_record() + "\"";
 	}
-	string sublabel()
+	string sublabel_record()
 	{
 		string ret = "";
 		ret += "<" + attributes["id"] + ">";
@@ -122,6 +123,34 @@ public:
 				continue;
 			ret += "\\n" + information.first + " : " + information.second;
 		}
+		return ret;
+	}
+
+	string bgcolor()
+	{
+		return attributes["gender"] == "M" ? "aquamarine" : "chartreuse";
+	}
+
+	string sublabel_table(int colspan = 1)
+	{
+		string ret = "<td align=\"text\" port=\"" + attributes["id"] + "\" bgcolor=\"" + bgcolor() + "\" colspan=\"" + to_string(colspan) + "\">";
+		ret += attributes["name"];
+
+		for (auto information : attributes)
+		{
+			if (information.first == "id" or information.first == "name" or information.first == "gender")
+				continue;
+			ret += "<br/>" + information.first + " : " + information.second;
+		}
+
+		ret += "</td>";
+		return ret;
+	}
+
+	string label_table()
+	{
+		string ret = "<<table border=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\">\n";
+		ret += "<tr>\n\t\t" + sublabel_table() + "\n</tr>\n</table>>";
 		return ret;
 	}
 
@@ -144,14 +173,26 @@ public:
 	{
 		mother_sons.emplace_back(mother, vector<Person *>());
 	}
-	string label()
+	string label_record()
 	{
-		string ret = "\"{" + father->sublabel() + "|{";
+		string ret = "\"{" + father->sublabel_record() + "|{";
 		assert(!mother_sons.empty());
-		ret += mother_sons[0].first->sublabel();
+		ret += mother_sons[0].first->sublabel_record();
 		for (int i = 1; i < mother_sons.size(); i++)
-			ret += "|" + mother_sons[i].first->sublabel();
+			ret += "|" + mother_sons[i].first->sublabel_record();
 		ret += "}}\"";
+		return ret;
+	}
+	string label_table()
+	{
+		string ret = "<<table border=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\">\n";
+		ret += "<tr>\n\t\t" + father->sublabel_table(mother_sons.size()) + "\n</tr>\n";
+		ret += "<tr>\n";
+		for (int i = 0; i < mother_sons.size(); i++)
+		{
+			ret += "\t\t"+mother_sons[i].first->sublabel_table() + "\n";
+		}
+		ret += "</tr>\n</table>>";
 		return ret;
 	}
 	friend ostream &operator<<(ostream &os, const Relation &r)
@@ -270,15 +311,23 @@ string get_node_port_of_child(Person *p)
 string get_node_using_record(Person *p, Relation *r)
 {
 	if (r)
-		return "\t" + r->father->attributes["id"] + "[label = " + r->label() + " , shape=record];";
+		return "\t" + r->father->attributes["id"] + "[label = " + r->label_record() + " , shape=record];";
 	else
-		return "\t" + p->attributes["id"] + "[label = " + p->label() + " , shape=record];";
+		return "\t" + p->attributes["id"] + "[label = " + p->label_record() + " , shape=record];";
+}
+
+string get_node_using_table(Person *p, Relation *r)
+{
+	if (r)
+		return "\t" + r->father->attributes["id"] + "[label = " + r->label_table() + " , shape = plaintext ];\n";
+	else
+		return "\t" + p->attributes["id"] + "[label = " + p->label_table() + " , shape = plaintext ];\n";
 }
 
 void graphviz(string ancestor)
 {
 
-	cout << "digraph {\n\tgraph[bgcolor=bisque2];\n\tedge[dir=none];\n";
+	cout << "digraph {\n\tgraph[bgcolor=bisque2 , ranksep=\"2\"];\n\tedge[dir=none];\n";
 
 	vector<string> gen;
 	gen.push_back(ancestor);
@@ -306,7 +355,7 @@ void graphviz(string ancestor)
 			}
 			// DBG(r);
 
-			cout << get_node_using_record(p, r) << endl;
+			cout << get_node_using_table(p, r) << endl;
 
 			if (r)
 				for (auto i : r->mother_sons)

@@ -1,144 +1,129 @@
-line 201 : *p --> [{gender,M} {id,hamid_hanif} {name,মোহাম্মদ আব্দুল হামিদ মিয়াজী } ]
-line 201 : *p --> [{gender,F} {id,Unknown} {name,Unknown } ]
-line 221 : *father --> [{gender,M} {id,hamid_hanif} {name,মোহাম্মদ আব্দুল হামিদ মিয়াজী } ]
-line 222 : *mother --> [{gender,F} {id,Unknown} {name,Unknown } ]
-line 201 : *p --> [{gender,M} {id,khalek_hamid} {name,মোহাম্মদ আব্দুল খালেক মিয়াজী } ]
-line 201 : *p --> [{gender,M} {id,kaiyum_hamid} {name,মোহাম্মদ আব্দুল কাইয়ুম মিয়াজী } ]
-line 201 : *p --> [{gender,M} {id,hamid_hanif} {name,মোহাম্মদ আব্দুল হামিদ মিয়াজী } ]
-line 201 : *p --> [{gender,F} {id,foyjunnesa_with_hamid} {name,ফয়জুন্নেসা } ]
-line 221 : *father --> [{gender,M} {id,hamid_hanif} {name,মোহাম্মদ আব্দুল হামিদ মিয়াজী } ]
-line 222 : *mother --> [{gender,F} {id,foyjunnesa_with_hamid} {name,ফয়জুন্নেসা } ]
-line 237 : idx --> -1
-line 201 : *p --> [{gender,M} {id,hoq_hamid} {name,মোহাম্মদ আব্দুল হক মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,hoq_hamid} {name,মোহাম্মদ আব্দুল হক মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,beauty_with_hoq} {name,বিউটি আক্তার} ]
-line 221 : *father --> [{gender,M} {id,hoq_hamid} {name,মোহাম্মদ আব্দুল হক মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,beauty_with_hoq} {name,বিউটি আক্তার} ]
-line 201 : *p --> [{gender,F} {id,taslima_hoq} {name,তাসলিমা আক্তার} ]
-line 201 : *p --> [{gender,F} {id,aklima_hoq} {name,আকলিমা আক্তার} ]
-line 201 : *p --> [{gender,F} {id,maria_hoq} {name,মারিয়া আক্তার} ]
-line 201 : *p --> [{gender,M} {id,johir_hoq} {name,মোহাম্মদ জহিরুল ইসলাম মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,faruk_hoq} {name,মোহাম্মদ ফারুক হোসেন মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,khalek_hamid} {name,মোহাম্মদ আব্দুল খালেক মিয়াজী } ]
-line 201 : *p --> [{gender,F} {id,Unknown8} {name,Unknown } ]
-line 221 : *father --> [{gender,M} {id,khalek_hamid} {name,মোহাম্মদ আব্দুল খালেক মিয়াজী } ]
-line 222 : *mother --> [{gender,F} {id,Unknown8} {name,Unknown } ]
-line 201 : *p --> [{gender,M} {id,mosleh_khalek} {name,মোহাম্মদ মোসলেহ উদ্দিন মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,nazim_khalek} {name,মোহাম্মদ নাজিম উদ্দিন মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,mosleh_khalek} {name,মোহাম্মদ মোসলেহ উদ্দিন মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,sufia_with_mosleh} {name,সুফিয়া আক্তার} ]
-line 221 : *father --> [{gender,M} {id,mosleh_khalek} {name,মোহাম্মদ মোসলেহ উদ্দিন মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,sufia_with_mosleh} {name,সুফিয়া আক্তার} ]
-line 201 : *p --> [{gender,M} {id,jafor_mosleh} {name,মোহাম্মদ জাফর মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,nazim_khalek} {name,মোহাম্মদ নাজিম উদ্দিন মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,nargis} {name,নারগিস আক্তার} ]
-line 221 : *father --> [{gender,M} {id,nazim_khalek} {name,মোহাম্মদ নাজিম উদ্দিন মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,nargis} {name,নারগিস আক্তার} ]
-line 201 : *p --> [{gender,M} {id,zobayer_nazim} {name,মোহাম্মদ জোবায়ের আহমেদ মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,kaiyum_hamid} {name,মোহাম্মদ আব্দুল কাইয়ুম মিয়াজী } ]
-line 201 : *p --> [{gender,F} {id,ambia} {name,আম্বিয়া খাতুন} ]
-line 221 : *father --> [{gender,M} {id,kaiyum_hamid} {name,মোহাম্মদ আব্দুল কাইয়ুম মিয়াজী } ]
-line 222 : *mother --> [{gender,F} {id,ambia} {name,আম্বিয়া খাতুন} ]
-line 201 : *p --> [{gender,M} {id,fazlur_kaiyum} {name,মোহাম্মদ ফজলুর রহিম মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,bazlur_kaiyum} {name,মোহাম্মদ বজলুর রহিম মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,ataur_kaiyum} {name,মোহাম্মদ আতাউর রহমান মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,jamila_kaiyum} {name,জামিলা খাতুন} ]
-line 201 : *p --> [{gender,M} {id,zakir_kaiyum} {name,মোহাম্মদ জাকির হোসেন মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,fazlur_kaiyum} {name,মোহাম্মদ ফজলুর রহিম মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,sufia} {name,সুফিয়া খাতুন} ]
-line 221 : *father --> [{gender,M} {id,fazlur_kaiyum} {name,মোহাম্মদ ফজলুর রহিম মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,sufia} {name,সুফিয়া খাতুন} ]
-line 201 : *p --> [{gender,M} {id,baki_fazlur} {name,মোহাম্মদ বাকি মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,saiful_fazlur} {name,মোহাম্মদ সাইফুল ইসলাম মিয়াজী} {ডাকনাম,নুরুল ইসলাম} ]
-line 201 : *p --> [{gender,M} {id,jahir_fazlur} {name,মোহাম্মদ জহির মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,baki_fazlur} {name,মোহাম্মদ বাকি মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,shamima} {name,শামিমা আক্তার} ]
-line 221 : *father --> [{gender,M} {id,baki_fazlur} {name,মোহাম্মদ বাকি মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,shamima} {name,শামিমা আক্তার} ]
-line 201 : *p --> [{gender,M} {id,sakib_baki} {name,মোহাম্মদ সাকিব হাসান মিয়াজী } ]
-line 201 : *p --> [{gender,F} {id,sanjida_baki} {name,সানজিদা আক্তার } ]
-line 201 : *p --> [{gender,M} {id,saiful_fazlur} {name,মোহাম্মদ সাইফুল ইসলাম মিয়াজী} {ডাকনাম,নুরুল ইসলাম} ]
-line 201 : *p --> [{gender,F} {id,moriom} {name,মরিয়ম আক্তার } ]
-line 221 : *father --> [{gender,M} {id,saiful_fazlur} {name,মোহাম্মদ সাইফুল ইসলাম মিয়াজী} {ডাকনাম,নুরুল ইসলাম} ]
-line 222 : *mother --> [{gender,F} {id,moriom} {name,মরিয়ম আক্তার } ]
-line 201 : *p --> [{gender,F} {id,sabiha_saiful} {name,সাবিহা আক্তার} ]
-line 201 : *p --> [{gender,F} {id,sayma_saiful} {name,সায়মা আক্তার} ]
-line 201 : *p --> [{gender,M} {id,jahir_fazlur} {name,মোহাম্মদ জহির মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,roksana} {name,রোকসানা পারভীন } ]
-line 221 : *father --> [{gender,M} {id,jahir_fazlur} {name,মোহাম্মদ জহির মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,roksana} {name,রোকসানা পারভীন } ]
-line 201 : *p --> [{gender,F} {id,zakia_jahir} {name,জাকিয়া আফরিন} ]
-line 201 : *p --> [{gender,M} {id,zafor_jahir} {name,আবু সালেহ মোহাম্মদ জাফর মিয়াজী } ]
-line 201 : *p --> [{gender,F} {id,nusrat_jahir} {name,নুসরাত জাহান মিম} ]
-line 201 : *p --> [{gender,F} {id,ilma_jahir} {name,ইলমা মিয়াজী} ]
-line 201 : *p --> [{gender,M} {id,bazlur_kaiyum} {name,মোহাম্মদ বজলুর রহিম মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,shahnaz} {name,শাহনাজ পারভীন} ]
-line 221 : *father --> [{gender,M} {id,bazlur_kaiyum} {name,মোহাম্মদ বজলুর রহিম মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,shahnaz} {name,শাহনাজ পারভীন} ]
-line 201 : *p --> [{gender,F} {id,ayuba_bazlur} {name,আয়ুবা আনসারি} {ডাকনাম,মাকসুদা} ]
-line 201 : *p --> [{gender,M} {id,amin_bazlur} {name,মোহাম্মদ আল আমিন} {জন্মসাল,১৯৯২} {ডাকনাম,মোজাম্মেল} ]
-line 201 : *p --> [{gender,F} {id,arju_bazlur} {name,নওশিন লায়লা আরজু} {জন্মসাল,১৯৯৭} ]
-line 201 : *p --> [{gender,M} {id,mahdi_bazlur} {name,মোহাম্মদ মাহদী হাসনাত সিয়াম} {জন্মসাল,১৯৯৯} ]
-line 201 : *p --> [{gender,F} {id,ayuba_bazlur} {name,আয়ুবা আনসারি} {ডাকনাম,মাকসুদা} ]
-line 201 : *p --> [{gender,M} {id,jalal_shahjahan} {name,মোহাম্মদ জালাল সরকার} ]
-line 221 : *father --> [{gender,M} {id,jalal_shahjahan} {name,মোহাম্মদ জালাল সরকার} ]
-line 222 : *mother --> [{gender,F} {id,ayuba_bazlur} {name,আয়ুবা আনসারি} {ডাকনাম,মাকসুদা} ]
-line 201 : *p --> [{gender,M} {id,mahin_jalal} {name,মোহাম্মদ রিশাদ রাহবার মাহিন} ]
-line 201 : *p --> [{gender,F} {id,muntaha_jalal} {name,সিদরাতুল মুনতাহা} ]
-line 201 : *p --> [{gender,M} {id,ataur_kaiyum} {name,মোহাম্মদ আতাউর রহমান মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,halima} {name,হালিমা আক্তার} ]
-line 221 : *father --> [{gender,M} {id,ataur_kaiyum} {name,মোহাম্মদ আতাউর রহমান মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,halima} {name,হালিমা আক্তার} ]
-line 201 : *p --> [{gender,F} {id,rehena_ataur} {name,রেহেনা আক্তার} ]
-line 201 : *p --> [{gender,M} {id,rayhan_ataur} {name,মোহাম্মদ রায়হান ইসলাম মিয়াজী} {জন্মসাল,১৯৯৬} ]
-line 201 : *p --> [{gender,M} {id,habib_ataur} {name,মোহাম্মদ হাবিব মিয়াজী } ]
-line 201 : *p --> [{gender,M} {id,sayed_ataur} {name,মোহাম্মদ সাঈদ মিয়াজী} {জন্মসাল,২০০৪} ]
-line 201 : *p --> [{gender,F} {id,rehena_ataur} {name,রেহেনা আক্তার} ]
-line 201 : *p --> [{gender,M} {id,bokul} {name,মোহাম্মদ ওমর ফারুক} {ডাকনাম,বকুল} ]
-line 221 : *father --> [{gender,M} {id,bokul} {name,মোহাম্মদ ওমর ফারুক} {ডাকনাম,বকুল} ]
-line 222 : *mother --> [{gender,F} {id,rehena_ataur} {name,রেহেনা আক্তার} ]
-line 201 : *p --> [{gender,M} {id,junayed_bokul} {name,মোহাম্মদ জুনায়েদ} ]
-line 201 : *p --> [{gender,M} {id,jobayer_bokul} {name,মোহাম্মদ জোবায়ের} ]
-line 201 : *p --> [{gender,F} {id,sumaiya_bokul} {name,সুমাইয়া আক্তার} ]
-line 201 : *p --> [{gender,M} {id,zakir_kaiyum} {name,মোহাম্মদ জাকির হোসেন মিয়াজী} ]
-line 201 : *p --> [{gender,F} {id,rubi} {name,রুবি আক্তার} ]
-line 221 : *father --> [{gender,M} {id,zakir_kaiyum} {name,মোহাম্মদ জাকির হোসেন মিয়াজী} ]
-line 222 : *mother --> [{gender,F} {id,rubi} {name,রুবি আক্তার} ]
-line 201 : *p --> [{gender,M} {id,rakib_zakir} {name,মোহাম্মদ রাকিবুল হাসান রিয়াজ} ]
-line 201 : *p --> [{gender,F} {id,jerin_zakir} {name,জেরিন সুলতানা} ]
-line 201 : *p --> [{gender,M} {id,hannan} {name,মোহাম্মদ হান্নান} ]
-line 201 : *p --> [{gender,F} {id,jamila_kaiyum} {name,জামিলা খাতুন} ]
-line 221 : *father --> [{gender,M} {id,hannan} {name,মোহাম্মদ হান্নান} ]
-line 222 : *mother --> [{gender,F} {id,jamila_kaiyum} {name,জামিলা খাতুন} ]
-line 201 : *p --> [{gender,M} {id,jasim_hannan} {name,মোহাম্মদ জসিম উদ্দিন} ]
-line 201 : *p --> [{gender,M} {id,mahi_hannan} {name,মোহাম্মদ মহিউদ্দিন মাহি} ]
-line 201 : *p --> [{gender,F} {id,sarmin_hannan} {name,শারমিন আক্তার} ]
-line 201 : *p --> [{gender,F} {id,arin} {name,আরিন সুলতানা} ]
-line 201 : *p --> [{gender,M} {id,jasim_hannan} {name,মোহাম্মদ জসিম উদ্দিন} ]
-line 221 : *father --> [{gender,M} {id,jasim_hannan} {name,মোহাম্মদ জসিম উদ্দিন} ]
-line 222 : *mother --> [{gender,F} {id,arin} {name,আরিন সুলতানা} ]
-line 201 : *p --> [{gender,F} {id,anisha_jasim} {name,আনিশা মেহজাবিন} ]
-line 201 : *p --> [{gender,M} {id,mahi_hannan} {name,মোহাম্মদ মহিউদ্দিন মাহি} ]
-line 201 : *p --> [{gender,F} {id,sayma} {name,সায়মা জাফরী} ]
-line 221 : *father --> [{gender,M} {id,mahi_hannan} {name,মোহাম্মদ মহিউদ্দিন মাহি} ]
-line 222 : *mother --> [{gender,F} {id,sayma} {name,সায়মা জাফরী} ]
 digraph {
-	graph[bgcolor=bisque2];
+	graph[bgcolor=bisque2 , ranksep="2:12"];
 	edge[dir=none];
-	node[shape=record];
 {
 	rank=same;
-	hamid_hanif[label = "{<hamid_hanif>মোহাম্মদ আব্দুল হামিদ মিয়াজী \ngender : M|{<Unknown>Unknown \ngender : F|<<foyjunnesa_with_hamid>ফয়জুন্নেসা \ngender : F}}" ];
+	hamid_hanif[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td href="test.svg" align="text" port="hamid_hanif" bgcolor="aquamarine" colspan="3">মোহাম্মদ আব্দুল হামিদ মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="Unknown" bgcolor="chartreuse" colspan="1">Unknown</td>
+		<td align="text" port="ambia_with_hamid" bgcolor="chartreuse" colspan="1">আম্বিয়া খাতুন</td>
+		<td align="text" port="foyjunnesa_with_hamid" bgcolor="chartreuse" colspan="1">ফয়জুন্নেসা</td>
+</tr>
+</table>> , shape = plaintext ];
+
 }
-		hamid_hanif:Unknown->khalek_hamid:khalek_hamid;
-		hamid_hanif:Unknown->kaiyum_hamid:kaiyum_hamid;
+		hamid_hanif:Unknown->malek_hamid:malek_hamid;
+		hamid_hanif:Unknown->bari_hamid:bari_hamid;
+		hamid_hanif:Unknown->oadud_hamid:oadud_hamid;
+		hamid_hanif:Unknown->kashem_hamid:kashem_hamid;
+		hamid_hanif:Unknown->ahsan_hamid:ahsan_hamid;
+		hamid_hanif:ambia_with_hamid->khalek_hamid:khalek_hamid;
+		hamid_hanif:ambia_with_hamid->korpurennesa_hamid:korpurennesa_hamid;
+		hamid_hanif:ambia_with_hamid->kaiyum_hamid:kaiyum_hamid;
+		hamid_hanif:ambia_with_hamid->afia_hamid:afia_hamid;
+		hamid_hanif:ambia_with_hamid->achia_hamid:achia_hamid;
+		hamid_hanif:ambia_with_hamid->ohidullah_hamid:ohidullah_hamid;
 		hamid_hanif:foyjunnesa_with_hamid->hoq_hamid:hoq_hamid;
 {
 	rank=same;
-	khalek_hamid[label = "{<khalek_hamid>মোহাম্মদ আব্দুল খালেক মিয়াজী \ngender : M|{<Unknown8>Unknown \ngender : F}}" ];
-	kaiyum_hamid[label = "{<kaiyum_hamid>মোহাম্মদ আব্দুল কাইয়ুম মিয়াজী \ngender : M|{<ambia>আম্বিয়া খাতুন\ngender : F}}" ];
-	hoq_hamid[label = "{<hoq_hamid>মোহাম্মদ আব্দুল হক মিয়াজী\ngender : M|{<beauty_with_hoq>বিউটি আক্তার\ngender : F}}" ];
+	malek_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="malek_hamid" bgcolor="aquamarine" colspan="1">মোহাম্মদ আব্দুল মালেক মিয়াজী<br/>বাড়ি : রংপুর</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	bari_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bari_hamid" bgcolor="aquamarine" colspan="1">মাওলানা আব্দুল মোহাম্মদ বারী মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	oadud_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="oadud_hamid" bgcolor="aquamarine" colspan="1">মোহাম্মদ আব্দুল ওয়াদুদ মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	kashem_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="kashem_hamid" bgcolor="aquamarine" colspan="1">আবুল কাশেম মোহাম্মদ ওবায়দুল্লাহ মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="habiba_fajar" bgcolor="chartreuse" colspan="1">হাবিবা খানম</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	ahsan_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="ahsan_hamid" bgcolor="aquamarine" colspan="1">মোহাম্মদ আহসান উল্লাহ মিয়াজী<br/>ডাকনাম : বরকতউল্লাহ</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	khalek_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="khalek_hamid" bgcolor="aquamarine" colspan="1">মোহাম্মদ আব্দুল খালেক মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="Unknown8" bgcolor="chartreuse" colspan="1">Unknown</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	korpurennesa_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="korpurennesa_hamid" bgcolor="chartreuse" colspan="1">করপুরেন্নেসা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	kaiyum_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="kaiyum_hamid" bgcolor="aquamarine" colspan="1">মোহাম্মদ আব্দুল কাইয়ুম মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="ambia" bgcolor="chartreuse" colspan="1">আম্বিয়া খাতুন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	afia_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="afia_hamid" bgcolor="chartreuse" colspan="1">আফিয়া খাতুন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	achia_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="achia_hamid" bgcolor="chartreuse" colspan="1">আছিয়া খাতুন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	ohidullah_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="ohidullah_hamid" bgcolor="aquamarine" colspan="1">মোহাম্মদ অহিদুল্লাহ মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	hoq_hamid[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="hoq_hamid" bgcolor="aquamarine" colspan="1">মোহাম্মদ আব্দুল হক মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="beauty_with_hoq" bgcolor="chartreuse" colspan="1">বিউটি আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
 }
+		kashem_hamid:habiba_fajar->hashem_kashem:hashem_kashem;
+		kashem_hamid:habiba_fajar->hashem_with_hasina:hasina_kashem;
+		kashem_hamid:habiba_fajar->bari_with_hamida:hamida_kashem;
+		kashem_hamid:habiba_fajar->khalil_with_naima:naima_kashem;
+		kashem_hamid:habiba_fajar->rafiq_with_morsheda:morsheda_kashem;
+		kashem_hamid:habiba_fajar->kalam_kashem:kalam_kashem;
+		kashem_hamid:habiba_fajar->kamal_kashem:kamal_kashem;
+		kashem_hamid:habiba_fajar->jesmin_kashem:jesmin_kashem;
+		kashem_hamid:habiba_fajar->pervin_kashem:pervin_kashem;
+		kashem_hamid:habiba_fajar->sina_kashem:sina_kashem;
 		khalek_hamid:Unknown8->mosleh_khalek:mosleh_khalek;
 		khalek_hamid:Unknown8->nazim_khalek:nazim_khalek;
 		kaiyum_hamid:ambia->fazlur_kaiyum:fazlur_kaiyum;
@@ -153,19 +138,200 @@ digraph {
 		hoq_hamid:beauty_with_hoq->faruk_hoq:faruk_hoq;
 {
 	rank=same;
-	mosleh_khalek[label = "{<mosleh_khalek>মোহাম্মদ মোসলেহ উদ্দিন মিয়াজী\ngender : M|{<sufia_with_mosleh>সুফিয়া আক্তার\ngender : F}}" ];
-	nazim_khalek[label = "{<nazim_khalek>মোহাম্মদ নাজিম উদ্দিন মিয়াজী\ngender : M|{<nargis>নারগিস আক্তার\ngender : F}}" ];
-	fazlur_kaiyum[label = "{<fazlur_kaiyum>মোহাম্মদ ফজলুর রহিম মিয়াজী\ngender : M|{<sufia>সুফিয়া খাতুন\ngender : F}}" ];
-	bazlur_kaiyum[label = "{<bazlur_kaiyum>মোহাম্মদ বজলুর রহিম মিয়াজী\ngender : M|{<shahnaz>শাহনাজ পারভীন\ngender : F}}" ];
-	ataur_kaiyum[label = "{<ataur_kaiyum>মোহাম্মদ আতাউর রহমান মিয়াজী\ngender : M|{<halima>হালিমা আক্তার\ngender : F}}" ];
-	hannan[label = "{<hannan>মোহাম্মদ হান্নান\ngender : M|{<jamila_kaiyum>জামিলা খাতুন\ngender : F}}" ];
-	zakir_kaiyum[label = "{<zakir_kaiyum>মোহাম্মদ জাকির হোসেন মিয়াজী\ngender : M|{<rubi>রুবি আক্তার\ngender : F}}" ];
-	taslima_hoq[label = "<taslima_hoq>তাসলিমা আক্তার\ngender : F" ];
-	aklima_hoq[label = "<aklima_hoq>আকলিমা আক্তার\ngender : F" ];
-	maria_hoq[label = "<maria_hoq>মারিয়া আক্তার\ngender : F" ];
-	johir_hoq[label = "<johir_hoq>মোহাম্মদ জহিরুল ইসলাম মিয়াজী\ngender : M" ];
-	faruk_hoq[label = "<faruk_hoq>মোহাম্মদ ফারুক হোসেন মিয়াজী\ngender : M" ];
+	hashem_kashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="hashem_kashem" bgcolor="aquamarine" colspan="1">মোহাম্মদ হাসেম মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	hashem_with_hasina[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="hashem_with_hasina" bgcolor="aquamarine" colspan="1">মাওলানা মোহাম্মদ হাসেম</td>
+</tr>
+<tr>
+		<td align="text" port="hasina_kashem" bgcolor="chartreuse" colspan="1">হাসিনা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	bari_with_hamida[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bari_with_hamida" bgcolor="aquamarine" colspan="1">মাস্টার আব্দুল মোহাম্মদ বারী সরকার</td>
+</tr>
+<tr>
+		<td align="text" port="hamida_kashem" bgcolor="chartreuse" colspan="1">হামিদা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	khalil_with_naima[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="khalil_with_naima" bgcolor="aquamarine" colspan="1">মোহাম্মদ খলিল ভুইয়া</td>
+</tr>
+<tr>
+		<td align="text" port="naima_kashem" bgcolor="chartreuse" colspan="1">নাইমা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	rafiq_with_morsheda[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="rafiq_with_morsheda" bgcolor="aquamarine" colspan="1">মোহাম্মদ রফিক বেপারী</td>
+</tr>
+<tr>
+		<td align="text" port="morsheda_kashem" bgcolor="chartreuse" colspan="1">মোরশেদা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	kalam_kashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="kalam_kashem" bgcolor="aquamarine" colspan="1">মোহাম্মদ আবু কালাম মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="kohinur_with_kalam" bgcolor="chartreuse" colspan="1">কোহিনুর আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	kamal_kashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="kamal_kashem" bgcolor="aquamarine" colspan="1">মোহাম্মদ কামাল মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="iva_with_kamal" bgcolor="chartreuse" colspan="1">ইভা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jesmin_kashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jesmin_kashem" bgcolor="chartreuse" colspan="1">জেসমিন আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	pervin_kashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="pervin_kashem" bgcolor="chartreuse" colspan="1">পারভিন আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sina_kashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sina_kashem" bgcolor="aquamarine" colspan="1">মোহাম্মদ আবু সিনা মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="achma_with_sina" bgcolor="chartreuse" colspan="1">আছমা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	mosleh_khalek[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="mosleh_khalek" bgcolor="aquamarine" colspan="1">মোহাম্মদ মোসলেহ উদ্দিন মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="sufia_with_mosleh" bgcolor="chartreuse" colspan="1">সুফিয়া আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	nazim_khalek[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="nazim_khalek" bgcolor="aquamarine" colspan="1">মোহাম্মদ নাজিম উদ্দিন মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="nargis" bgcolor="chartreuse" colspan="1">নারগিস আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	fazlur_kaiyum[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="fazlur_kaiyum" bgcolor="aquamarine" colspan="1">মোহাম্মদ ফজলুর রহিম মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="sufia" bgcolor="chartreuse" colspan="1">সুফিয়া খাতুন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	bazlur_kaiyum[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bazlur_kaiyum" bgcolor="aquamarine" colspan="1">মোহাম্মদ বজলুর রহিম মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="shahnaz" bgcolor="chartreuse" colspan="1">শাহনাজ পারভীন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	ataur_kaiyum[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="ataur_kaiyum" bgcolor="aquamarine" colspan="1">মোহাম্মদ আতাউর রহমান মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="halima" bgcolor="chartreuse" colspan="1">হালিমা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	hannan[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="hannan" bgcolor="aquamarine" colspan="1">মোহাম্মদ হান্নান</td>
+</tr>
+<tr>
+		<td align="text" port="jamila_kaiyum" bgcolor="chartreuse" colspan="1">জামিলা খাতুন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	zakir_kaiyum[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="zakir_kaiyum" bgcolor="aquamarine" colspan="1">মোহাম্মদ জাকির হোসেন মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="rubi" bgcolor="chartreuse" colspan="1">রুবি আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	taslima_hoq[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="taslima_hoq" bgcolor="chartreuse" colspan="1">তাসলিমা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	aklima_hoq[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="aklima_hoq" bgcolor="chartreuse" colspan="1">আকলিমা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	maria_hoq[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="maria_hoq" bgcolor="chartreuse" colspan="1">মারিয়া আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	johir_hoq[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="johir_hoq" bgcolor="aquamarine" colspan="1">মোহাম্মদ জহিরুল ইসলাম মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	faruk_hoq[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="faruk_hoq" bgcolor="aquamarine" colspan="1">মোহাম্মদ ফারুক হোসেন মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
 }
+		hashem_with_hasina:hasina_kashem->bahauddin_hashem:bahauddin_hashem;
+		hashem_with_hasina:hasina_kashem->kuddus_with_sayeda:sayeda_hashem;
+		hashem_with_hasina:hasina_kashem->fokhoruddin_hashem:fokhoruddin_hashem;
+		bari_with_hamida:hamida_kashem->noman_bari:noman_bari;
+		bari_with_hamida:hamida_kashem->jafor_bari:jafor_bari;
+		bari_with_hamida:hamida_kashem->noman_with_sumi:sumi_bari;
+		khalil_with_naima:naima_kashem->jobayer_with_eni:eni_khalil;
+		khalil_with_naima:naima_kashem->rifat_khalil:rifat_khalil;
+		rafiq_with_morsheda:morsheda_kashem->liton_with_rehena:rehena_rafiq;
+		rafiq_with_morsheda:morsheda_kashem->farhana_rafiq:farhana_rafiq;
+		rafiq_with_morsheda:morsheda_kashem->fatema_rafiq:fatema_rafiq;
+		rafiq_with_morsheda:morsheda_kashem->rasel_with_hosnayara:hosnayara_rafiq;
+		kalam_kashem:kohinur_with_kalam->shariat_kalam:shariat_kalam;
+		kalam_kashem:kohinur_with_kalam->hedayed_kalam:hedayed_kalam;
+		kalam_kashem:kohinur_with_kalam->jannat_kalam:jannat_kalam;
+		kamal_kashem:iva_with_kamal->shifa_kamal:shifa_kamal;
+		kamal_kashem:iva_with_kamal->ohi_kamal:ohi_kamal;
+		sina_kashem:achma_with_sina->abdullah_sina:abdullah_sina;
+		sina_kashem:achma_with_sina->hasibullah_sina:hasibullah_sina;
 		mosleh_khalek:sufia_with_mosleh->jafor_mosleh:jafor_mosleh;
 		nazim_khalek:nargis->zobayer_nazim:zobayer_nazim;
 		fazlur_kaiyum:sufia->baki_fazlur:baki_fazlur;
@@ -186,25 +352,291 @@ digraph {
 		zakir_kaiyum:rubi->jerin_zakir:jerin_zakir;
 {
 	rank=same;
-	jafor_mosleh[label = "<jafor_mosleh>মোহাম্মদ জাফর মিয়াজী\ngender : M" ];
-	zobayer_nazim[label = "<zobayer_nazim>মোহাম্মদ জোবায়ের আহমেদ মিয়াজী\ngender : M" ];
-	baki_fazlur[label = "{<baki_fazlur>মোহাম্মদ বাকি মিয়াজী\ngender : M|{<shamima>শামিমা আক্তার\ngender : F}}" ];
-	saiful_fazlur[label = "{<saiful_fazlur>মোহাম্মদ সাইফুল ইসলাম মিয়াজী\ngender : M\nডাকনাম : নুরুল ইসলাম|{<moriom>মরিয়ম আক্তার \ngender : F}}" ];
-	jahir_fazlur[label = "{<jahir_fazlur>মোহাম্মদ জহির মিয়াজী\ngender : M|{<roksana>রোকসানা পারভীন \ngender : F}}" ];
-	jalal_shahjahan[label = "{<jalal_shahjahan>মোহাম্মদ জালাল সরকার\ngender : M|{<ayuba_bazlur>আয়ুবা আনসারি\ngender : F\nডাকনাম : মাকসুদা}}" ];
-	amin_bazlur[label = "<amin_bazlur>মোহাম্মদ আল আমিন\ngender : M\nজন্মসাল : ১৯৯২\nডাকনাম : মোজাম্মেল" ];
-	arju_bazlur[label = "<arju_bazlur>নওশিন লায়লা আরজু\ngender : F\nজন্মসাল : ১৯৯৭" ];
-	mahdi_bazlur[label = "<mahdi_bazlur>মোহাম্মদ মাহদী হাসনাত সিয়াম\ngender : M\nজন্মসাল : ১৯৯৯" ];
-	bokul[label = "{<bokul>মোহাম্মদ ওমর ফারুক\ngender : M\nডাকনাম : বকুল|{<rehena_ataur>রেহেনা আক্তার\ngender : F}}" ];
-	rayhan_ataur[label = "<rayhan_ataur>মোহাম্মদ রায়হান ইসলাম মিয়াজী\ngender : M\nজন্মসাল : ১৯৯৬" ];
-	habib_ataur[label = "<habib_ataur>মোহাম্মদ হাবিব মিয়াজী \ngender : M" ];
-	sayed_ataur[label = "<sayed_ataur>মোহাম্মদ সাঈদ মিয়াজী\ngender : M\nজন্মসাল : ২০০৪" ];
-	jasim_hannan[label = "{<jasim_hannan>মোহাম্মদ জসিম উদ্দিন\ngender : M|{<arin>আরিন সুলতানা\ngender : F}}" ];
-	mahi_hannan[label = "{<mahi_hannan>মোহাম্মদ মহিউদ্দিন মাহি\ngender : M|{<sayma>সায়মা জাফরী\ngender : F}}" ];
-	sarmin_hannan[label = "<sarmin_hannan>শারমিন আক্তার\ngender : F" ];
-	rakib_zakir[label = "<rakib_zakir>মোহাম্মদ রাকিবুল হাসান রিয়াজ\ngender : M" ];
-	jerin_zakir[label = "<jerin_zakir>জেরিন সুলতানা\ngender : F" ];
+	bahauddin_hashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bahauddin_hashem" bgcolor="aquamarine" colspan="1">মোহাম্মদ বাহাউদ্দিন</td>
+</tr>
+<tr>
+		<td align="text" port="shahinur_with_bahauddin" bgcolor="chartreuse" colspan="1">শাহিনুর</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	kuddus_with_sayeda[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="kuddus_with_sayeda" bgcolor="aquamarine" colspan="1">মোহাম্মদ কুদ্দুস</td>
+</tr>
+<tr>
+		<td align="text" port="sayeda_hashem" bgcolor="chartreuse" colspan="1">সায়েদা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	fokhoruddin_hashem[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="fokhoruddin_hashem" bgcolor="aquamarine" colspan="1">মোহাম্মদ ফখরদ্দিন</td>
+</tr>
+<tr>
+		<td align="text" port="shirin_with_fokhoruddin" bgcolor="chartreuse" colspan="1">শিরিন আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	noman_bari[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="noman_bari" bgcolor="aquamarine" colspan="1">মোহাম্মদ নোমান সরকার</td>
+</tr>
+<tr>
+		<td align="text" port="mukta_with_noman" bgcolor="chartreuse" colspan="1">মুক্তা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jafor_bari[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jafor_bari" bgcolor="aquamarine" colspan="1">মোহাম্মদ জাফর সরকার</td>
+</tr>
+<tr>
+		<td align="text" port="shahinur_with_jafor" bgcolor="chartreuse" colspan="1">শাহিনুর</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	noman_with_sumi[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="noman_with_sumi" bgcolor="aquamarine" colspan="1">মোহাম্মদ নোমান</td>
+</tr>
+<tr>
+		<td align="text" port="sumi_bari" bgcolor="chartreuse" colspan="1">সুমি সরকার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jobayer_with_eni[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jobayer_with_eni" bgcolor="aquamarine" colspan="1">মোহাম্মদ জোবায়ের</td>
+</tr>
+<tr>
+		<td align="text" port="eni_khalil" bgcolor="chartreuse" colspan="1">এনি আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	rifat_khalil[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="rifat_khalil" bgcolor="aquamarine" colspan="1">মোহাম্মদ রিফাত ভুইয়া</td>
+</tr>
+<tr>
+		<td align="text" port="iasmin_with_rifat" bgcolor="chartreuse" colspan="1">ইয়াছমিন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	liton_with_rehena[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="liton_with_rehena" bgcolor="aquamarine" colspan="1">লিটন</td>
+</tr>
+<tr>
+		<td align="text" port="rehena_rafiq" bgcolor="chartreuse" colspan="1">রেহেনা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	farhana_rafiq[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="farhana_rafiq" bgcolor="chartreuse" colspan="1">ফারহানা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	fatema_rafiq[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="fatema_rafiq" bgcolor="chartreuse" colspan="1">ফাতেমা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	rasel_with_hosnayara[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="rasel_with_hosnayara" bgcolor="aquamarine" colspan="1">মোহাম্মদ রাসেল</td>
+</tr>
+<tr>
+		<td align="text" port="hosnayara_rafiq" bgcolor="chartreuse" colspan="1">হোসনায়ারা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	shariat_kalam[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="shariat_kalam" bgcolor="aquamarine" colspan="1">মোহাম্মদ শরীয়তউল্লাহ মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	hedayed_kalam[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="hedayed_kalam" bgcolor="aquamarine" colspan="1">মোহাম্মদ হেদায়েতউল্লাহ মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jannat_kalam[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jannat_kalam" bgcolor="chartreuse" colspan="1">জান্নাত</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	shifa_kamal[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="shifa_kamal" bgcolor="chartreuse" colspan="1">নিশাত তাবাসসুম শিফা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	ohi_kamal[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="ohi_kamal" bgcolor="aquamarine" colspan="1">ইরফান মোহাম্মদ অহি</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	abdullah_sina[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="abdullah_sina" bgcolor="aquamarine" colspan="1">আব্দুল্লাহ<br/>ডাকনাম : রিয়ান</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	hasibullah_sina[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="hasibullah_sina" bgcolor="aquamarine" colspan="1">হাসিবুল্লাহ<br/>ডাকনাম : রিশাদ</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jafor_mosleh[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jafor_mosleh" bgcolor="aquamarine" colspan="1">মোহাম্মদ জাফর মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	zobayer_nazim[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="zobayer_nazim" bgcolor="aquamarine" colspan="1">মোহাম্মদ জোবায়ের আহমেদ মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	baki_fazlur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="baki_fazlur" bgcolor="aquamarine" colspan="1">মোহাম্মদ বাকি মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="shamima" bgcolor="chartreuse" colspan="1">শামিমা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	saiful_fazlur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="saiful_fazlur" bgcolor="aquamarine" colspan="1">মোহাম্মদ সাইফুল ইসলাম মিয়াজী<br/>ডাকনাম : নুরুল ইসলাম</td>
+</tr>
+<tr>
+		<td align="text" port="moriom" bgcolor="chartreuse" colspan="1">মরিয়ম আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jahir_fazlur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jahir_fazlur" bgcolor="aquamarine" colspan="1">মোহাম্মদ জহির মিয়াজী</td>
+</tr>
+<tr>
+		<td align="text" port="roksana" bgcolor="chartreuse" colspan="1">রোকসানা পারভীন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jalal_shahjahan[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jalal_shahjahan" bgcolor="aquamarine" colspan="1">মোহাম্মদ জালাল সরকার</td>
+</tr>
+<tr>
+		<td align="text" port="ayuba_bazlur" bgcolor="chartreuse" colspan="1">আয়ুবা আনসারি<br/>ডাকনাম : মাকসুদা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	amin_bazlur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="amin_bazlur" bgcolor="aquamarine" colspan="1">মোহাম্মদ আল আমিন<br/>জন্মসাল : ১৯৯২<br/>ডাকনাম : মোজাম্মেল</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	arju_bazlur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="arju_bazlur" bgcolor="chartreuse" colspan="1">নওশিন লায়লা আরজু<br/>জন্মসাল : ১৯৯৭</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	mahdi_bazlur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="mahdi_bazlur" bgcolor="aquamarine" colspan="1">মোহাম্মদ মাহদী হাসনাত সিয়াম<br/>জন্মসাল : ১৯৯৯</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	bokul[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bokul" bgcolor="aquamarine" colspan="1">মোহাম্মদ ওমর ফারুক<br/>ডাকনাম : বকুল</td>
+</tr>
+<tr>
+		<td align="text" port="rehena_ataur" bgcolor="chartreuse" colspan="1">রেহেনা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	rayhan_ataur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="rayhan_ataur" bgcolor="aquamarine" colspan="1">মোহাম্মদ রায়হান ইসলাম মিয়াজী<br/>জন্মসাল : ১৯৯৬</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	habib_ataur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="habib_ataur" bgcolor="aquamarine" colspan="1">মোহাম্মদ হাবিব মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sayed_ataur[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sayed_ataur" bgcolor="aquamarine" colspan="1">মোহাম্মদ সাঈদ মিয়াজী<br/>জন্মসাল : ২০০৪</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jasim_hannan[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jasim_hannan" bgcolor="aquamarine" colspan="1">মোহাম্মদ জসিম উদ্দিন</td>
+</tr>
+<tr>
+		<td align="text" port="arin" bgcolor="chartreuse" colspan="1">আরিন সুলতানা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	mahi_hannan[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="mahi_hannan" bgcolor="aquamarine" colspan="1">মোহাম্মদ মহিউদ্দিন মাহি</td>
+</tr>
+<tr>
+		<td align="text" port="sayma" bgcolor="chartreuse" colspan="1">সায়মা জাফরী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sarmin_hannan[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sarmin_hannan" bgcolor="chartreuse" colspan="1">শারমিন আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	rakib_zakir[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="rakib_zakir" bgcolor="aquamarine" colspan="1">মোহাম্মদ রাকিবুল হাসান রিয়াজ</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jerin_zakir[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jerin_zakir" bgcolor="chartreuse" colspan="1">জেরিন সুলতানা</td>
+</tr>
+</table>> , shape = plaintext ];
+
 }
+		bahauddin_hashem:shahinur_with_bahauddin->bayezid_bahauddin:bayezid_bahauddin;
+		bahauddin_hashem:shahinur_with_bahauddin->saba_banauddin:saba_banauddin;
+		kuddus_with_sayeda:sayeda_hashem->kashfa_kuddus:kashfa_kuddus;
+		kuddus_with_sayeda:sayeda_hashem->bakar_kuddus:bakar_kuddus;
+		noman_bari:mukta_with_noman->nihan_noman:nihan_noman;
+		jafor_bari:shahinur_with_jafor->abdullah_jafor:abdullah_jafor;
+		noman_with_sumi:sumi_bari->nuha_sumi:nuha_sumi;
+		noman_with_sumi:sumi_bari->nusaiba_sumi:nusaiba_sumi;
+		liton_with_rehena:rehena_rafiq->lamia_liton:lamia_liton;
+		rasel_with_hosnayara:hosnayara_rafiq->bokor_rasel:bokor_rasel;
+		rasel_with_hosnayara:hosnayara_rafiq->saleh_rasel:saleh_rasel;
 		baki_fazlur:shamima->sakib_baki:sakib_baki;
 		baki_fazlur:shamima->sanjida_baki:sanjida_baki;
 		saiful_fazlur:moriom->sabiha_saiful:sabiha_saiful;
@@ -221,19 +653,155 @@ digraph {
 		jasim_hannan:arin->anisha_jasim:anisha_jasim;
 {
 	rank=same;
-	sakib_baki[label = "<sakib_baki>মোহাম্মদ সাকিব হাসান মিয়াজী \ngender : M" ];
-	sanjida_baki[label = "<sanjida_baki>সানজিদা আক্তার \ngender : F" ];
-	sabiha_saiful[label = "<sabiha_saiful>সাবিহা আক্তার\ngender : F" ];
-	sayma_saiful[label = "<sayma_saiful>সায়মা আক্তার\ngender : F" ];
-	zakia_jahir[label = "<zakia_jahir>জাকিয়া আফরিন\ngender : F" ];
-	zafor_jahir[label = "<zafor_jahir>আবু সালেহ মোহাম্মদ জাফর মিয়াজী \ngender : M" ];
-	nusrat_jahir[label = "<nusrat_jahir>নুসরাত জাহান মিম\ngender : F" ];
-	ilma_jahir[label = "<ilma_jahir>ইলমা মিয়াজী\ngender : F" ];
-	mahin_jalal[label = "<mahin_jalal>মোহাম্মদ রিশাদ রাহবার মাহিন\ngender : M" ];
-	muntaha_jalal[label = "<muntaha_jalal>সিদরাতুল মুনতাহা\ngender : F" ];
-	junayed_bokul[label = "<junayed_bokul>মোহাম্মদ জুনায়েদ\ngender : M" ];
-	jobayer_bokul[label = "<jobayer_bokul>মোহাম্মদ জোবায়ের\ngender : M" ];
-	sumaiya_bokul[label = "<sumaiya_bokul>সুমাইয়া আক্তার\ngender : F" ];
-	anisha_jasim[label = "<anisha_jasim>আনিশা মেহজাবিন\ngender : F" ];
+	bayezid_bahauddin[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bayezid_bahauddin" bgcolor="aquamarine" colspan="1">মোহাম্মদ বায়েজিদ</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	saba_banauddin[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="saba_banauddin" bgcolor="chartreuse" colspan="1">সাবা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	kashfa_kuddus[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="kashfa_kuddus" bgcolor="chartreuse" colspan="1">কাশফা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	bakar_kuddus[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bakar_kuddus" bgcolor="aquamarine" colspan="1">মোহাম্মদ আবু বকর</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	nihan_noman[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="nihan_noman" bgcolor="aquamarine" colspan="1">মোহাম্মদ নিহান সরকার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	abdullah_jafor[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="abdullah_jafor" bgcolor="aquamarine" colspan="1">আব্দুল্লাহ</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	nuha_sumi[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="nuha_sumi" bgcolor="chartreuse" colspan="1">নুহা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	nusaiba_sumi[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="nusaiba_sumi" bgcolor="chartreuse" colspan="1">নুসাইবা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	lamia_liton[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="lamia_liton" bgcolor="chartreuse" colspan="1">লামিয়া</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	bokor_rasel[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="bokor_rasel" bgcolor="aquamarine" colspan="1">আবু বকর</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	saleh_rasel[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="saleh_rasel" bgcolor="aquamarine" colspan="1">আবু সালেহ</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sakib_baki[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sakib_baki" bgcolor="aquamarine" colspan="1">মোহাম্মদ সাকিব হাসান মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sanjida_baki[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sanjida_baki" bgcolor="chartreuse" colspan="1">সানজিদা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sabiha_saiful[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sabiha_saiful" bgcolor="chartreuse" colspan="1">সাবিহা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sayma_saiful[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sayma_saiful" bgcolor="chartreuse" colspan="1">সায়মা আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	zakia_jahir[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="zakia_jahir" bgcolor="chartreuse" colspan="1">জাকিয়া আফরিন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	zafor_jahir[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="zafor_jahir" bgcolor="aquamarine" colspan="1">আবু সালেহ মোহাম্মদ জাফর মিয়াজী</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	nusrat_jahir[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="nusrat_jahir" bgcolor="chartreuse" colspan="1">নুসরাত জাহান মিম</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	ilma_jahir[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="ilma_jahir" bgcolor="chartreuse" colspan="1">নিশাত ইসলাম ইলমা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	mahin_jalal[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="mahin_jalal" bgcolor="aquamarine" colspan="1">মোহাম্মদ রিশাদ রাহবার মাহিন</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	muntaha_jalal[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="muntaha_jalal" bgcolor="chartreuse" colspan="1">সিদরাতুল মুনতাহা</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	junayed_bokul[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="junayed_bokul" bgcolor="aquamarine" colspan="1">মোহাম্মদ জুনায়েদ</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	jobayer_bokul[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="jobayer_bokul" bgcolor="aquamarine" colspan="1">মোহাম্মদ জোবায়ের</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	sumaiya_bokul[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="sumaiya_bokul" bgcolor="chartreuse" colspan="1">সুমাইয়া আক্তার</td>
+</tr>
+</table>> , shape = plaintext ];
+
+	anisha_jasim[label = <<table border="0" CELLBORDER="1" CELLSPACING="0">
+<tr>
+		<td align="text" port="anisha_jasim" bgcolor="chartreuse" colspan="1">আনিশা মেহজাবিন</td>
+</tr>
+</table>> , shape = plaintext ];
+
 }
 }
