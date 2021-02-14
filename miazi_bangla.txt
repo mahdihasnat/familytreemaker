@@ -1,3 +1,30 @@
+মোহাম্মদ আব্দুল হানিফ মিয়াজী(M,id=hanif_miazi)
+Unknown(F)
+	মোহাম্মদ আব্দুল মুন্সী মিয়াজী(M,id=munsi_hanif)
+	মোহাম্মদ ওমেদ আলী মিয়াজী(M,id=omed_hanif)
+মোহাম্মদ আব্দুল হানিফ মিয়াজী(M,id=hanif_miazi)
+Unknown(F)
+	মোহাম্মদ আব্দুল হামিদ মিয়াজী (M,id=hamid_hanif)
+	মোহাম্মদ আহমেদ আলী মিয়াজী(M,id=ahmed_hanif)
+
+মোহাম্মদ আব্দুল মুন্সী মিয়াজী(M,id=munsi_hanif)
+Unknown(F)
+	মোহাম্মদ আব্দুস ছামী মিয়াজী(M,id=chami_munsi)
+মোহাম্মদ আব্দুস ছামী মিয়াজী(M,id=chami_munsi)
+Unknown(F)
+	মোহাম্মদ আব্দুল আলী মিয়াজী(M,id=ali_chami)
+	মোহাম্মদ জিল্লুর রহমান মিয়াজী(M,id=zillur_chami)
+
+
+মোহাম্মদ ওমেদ আলী মিয়াজী(M,id=omed_hanif)
+Unknown(F)
+	মোহাম্মদ মকবুল হোসেন মিয়াজী(M,id=mokbul_omed)
+
+মোহাম্মদ মকবুল হোসেন মিয়াজী(M,id=mokbul_omed)
+Unknown(F)
+	মোহাম্মদ মোক্তার হোসেন মিয়াজী(M,id=moktar_mokbul)
+	মোহাম্মদ মমতাজ উদ্দিন মিয়াজী(M,id=momtaz_mokbul)
+
 মোহাম্মদ আব্দুল হামিদ মিয়াজী (M,id=hamid_hanif)
 Unknown (F)
 	মোহাম্মদ আব্দুল মালেক মিয়াজী(M,id=malek_hamid,বাড়ি=রংপুর)
@@ -18,6 +45,24 @@ Unknown (F)
 মোহাম্মদ আব্দুল হামিদ মিয়াজী (M,id=hamid_hanif)
 ফয়জুন্নেসা (F,id=foyjunnesa_with_hamid)
 	মোহাম্মদ আব্দুল হক মিয়াজী(M,id=hoq_hamid)
+
+মাওলানা আব্দুল মোহাম্মদ বারী মিয়াজী(M,id=bari_hamid)
+Unknown(F)
+	মাওলানা মোহাম্মদ আব্দুল বাছেত মিয়াজী(M,id=bachet_bari)
+	মাওলানা মোহাম্মদ আবুল ওফা মিয়াজী(M,ofa_bari)
+
+মাওলানা মোহাম্মদ আব্দুল বাছেত মিয়াজী(M,id=bachet_bari)
+Unknown(F)
+	মাওলানা মোহাম্মদ মহিউদ্দিন মিয়াজী(M,id=mohiuddin_bachet)
+	মাওলানা মোহাম্মদ নেছার উদ্দিন মিয়াজী(M,id=nechar_bachet)
+	মাওলানা মোহাম্মদ হেলাল উদ্দিন মিয়াজী(M,id=helal_bachet)
+	হাফেজ মাওলানা মোহাম্মদ বোরহান উদ্দিন মিয়াজী(M,id=borhan_bachet)
+
+
+মোহাম্মদ আব্দুল ওয়াদুদ মিয়াজী (M,id=oadud_hamid)
+লাল বুবু(F)
+	মেজর এস এম হাবিবুল্লাহ মিয়াজী(M,id=habib_oadud)
+
 
 আবুল কাশেম মোহাম্মদ ওবায়দুল্লাহ মিয়াজী(M,id=kashem_hamid,পেশা=মাস্টার)
 হাবিবা খানম(F,id=habiba_fajar)

@@ -41,7 +41,9 @@ class Person
 {
 public:
 	map<string, string> attributes;
-	Person(string line)
+	Relation * ancestor_relation ;
+	int ancestor_idx = -1;
+	Person(string line): ancestor_relation(0) , ancestor_idx(-1)
 	{
 		stringstream sin(line);
 		getline(sin, attributes["name"], '(');
@@ -247,6 +249,8 @@ void parse(ifstream &fin)
 			assert(idx != -1);
 			assert(idx < r->mother_sons.size());
 			r->mother_sons[idx].second.push_back(p);
+			p->ancestor_relation = r;
+			p->ancestor_idx = idx;
 			last = 0;
 		}
 		else
@@ -324,10 +328,68 @@ string get_node_using_table(Person *p, Relation *r)
 		return "\t" + p->attributes["id"] + "[label = " + p->label_table() + " , shape = plaintext ];\n";
 }
 
+Relation * get_relation_from_person(Person * p)
+{
+	Relation * r  = 0;
+	string person_id = p->attributes["id"];
+	if (p->attributes["gender"] == "M")
+	{
+		r = relations[person_id];
+	}
+	else
+	{
+		if (husband.find(person_id) != husband.end())
+			r = relations[husband[person_id]->attributes["id"]];
+	}
+	return r;
+}
+
+void get_person_relation_fron_person_id(string person_id,Person * &p , Relation * &r)
+{
+	p = persons[person_id];
+	r=0;
+	assert(p);
+	if (p->attributes["gender"] == "M")
+	{
+		r = relations[person_id];
+	}
+	else
+	{
+		if (husband.find(person_id) != husband.end())
+			r = relations[husband[person_id]->attributes["id"]];
+	}
+}
+
+Person * get_ancestor(Relation * r, int idx)
+{
+	if( r->father->ancestor_relation )
+		return r->father;
+	else return r->mother_sons[idx].first;
+}
+
+void graphviz_print_ancestors(Person * person)
+{
+	assert(person);
+	if ( person -> ancestor_relation)
+	{
+		Person * ancestor = get_ancestor(person->ancestor_relation , person->ancestor_idx);
+		if(ancestor)
+		{
+			cout<<get_node_using_table(ancestor , get_relation_from_person(ancestor))<<endl;
+			cout<<"\t"<<person->ancestor_relation->father->attributes["id"]<<":"<<person->ancestor_relation->mother_sons[person->ancestor_idx].first->attributes["id"]<<" -> "<<get_node_port_of_child(person)<<endl;
+			return graphviz_print_ancestors(ancestor);
+		}
+	}
+
+}
+
 void graphviz(string ancestor)
 {
 
 	cout << "digraph {\n\tgraph[bgcolor=bisque2 , ranksep=\"2\"];\n\tedge[dir=none];\n";
+
+
+	graphviz_print_ancestors(persons[ancestor]);
 
 	vector<string> gen;
 	gen.push_back(ancestor);
@@ -342,17 +404,9 @@ void graphviz(string ancestor)
 		for (string person_id : gen)
 		{
 			// cout << (person_id) << "  ,,  ";
-			Person *p = persons[person_id];
+			Person *p =0;
 			Relation *r = 0;
-			if (p->attributes["gender"] == "M")
-			{
-				r = relations[person_id];
-			}
-			else
-			{
-				if (husband.find(person_id) != husband.end())
-					r = relations[husband[person_id]->attributes["id"]];
-			}
+			get_person_relation_fron_person_id(person_id , p, r);
 			// DBG(r);
 
 			cout << get_node_using_table(p, r) << endl;
