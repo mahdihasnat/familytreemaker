@@ -410,6 +410,7 @@ void graphviz(string ancestor)
 			// DBG(r);
 
 			cout << get_node_using_table(p, r) << endl;
+			//cout << get_node_using_record(p, r) << endl;
 
 			if (r)
 				for (auto i : r->mother_sons)

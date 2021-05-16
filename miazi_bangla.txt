@@ -49,7 +49,7 @@ Unknown (F)
 মাওলানা আব্দুল মোহাম্মদ বারী মিয়াজী(M,id=bari_hamid)
 Unknown(F)
 	মাওলানা মোহাম্মদ আব্দুল বাছেত মিয়াজী(M,id=bachet_bari)
-	মাওলানা মোহাম্মদ আবুল ওফা মিয়াজী(M,ofa_bari)
+	মাওলানা মোহাম্মদ আবুল ওফা মিয়াজী(M,id=ofa_bari)
 
 মাওলানা মোহাম্মদ আব্দুল বাছেত মিয়াজী(M,id=bachet_bari)
 Unknown(F)
@@ -60,7 +60,7 @@ Unknown(F)
 
 
 মোহাম্মদ আব্দুল ওয়াদুদ মিয়াজী (M,id=oadud_hamid)
-লাল বুবু(F)
+লাল বুবু(F,id=lal_bubu)
 	মেজর এস এম হাবিবুল্লাহ মিয়াজী(M,id=habib_oadud)
 
 
@@ -250,9 +250,9 @@ Unknown (F)
 	মোহাম্মদ মহিউদ্দিন মাহি(M,id=mahi_hannan)
 	শারমিন আক্তার(F,id=sarmin_hannan)
 
-আরিন সুলতানা(F,id=arin)
+আরিন সুলতানা(F,id=arin_with_jasim)
 মোহাম্মদ জসিম উদ্দিন(M,id=jasim_hannan)
 	আনিশা মেহজাবিন(F,id=anisha_jasim)
 
 মোহাম্মদ মহিউদ্দিন মাহি(M,id=mahi_hannan)
-সায়মা জাফরী(F,id=sayma)
+সায়মা জাফরী(F,id=sayma_with_mahi)
